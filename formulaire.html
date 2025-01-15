@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit">
+        <fieldset>
+            <label for="prénom">Prénom</label>
+            <input type="text" id="prénom"><br>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom"><br>
+            <label for="mail">Votre e-mail</label>
+            <input type="email" id="mail"><br>
+            <label for="mdps">Mot de passe</label>
+            <input type="password" id="mdps"><br>
+            <label for="cmdps">Confirmer votre mot de passe</label>
+            <input type="password" id="cmdps"><br>
+            <fieldset>
+                <legend>Genre</legend>
+                <label for="male">Homme</label>
+                <input type="radio" id="male" name="genre" value="male">
+                <label for="female">Femme</label>
+                <input type="radio" id="female" name="genre" value="female">
+            </fieldset>
+            <label for="pays">Pays</label>
+            <select name="pays" id="pays">
+                <option value="tunisie">Tunisie</option>
+                <option value="maroc">Maroc</option>
+                <option value="italie">Italie</option>
+                <option value="france">France</option>
+            </select>
+            <button type="button" id="btn">Envoyer</button>
+        </fieldset>
+    </form>
+    <script src="controle.js"></script>
+</body>
+</html>
